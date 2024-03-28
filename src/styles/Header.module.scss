@@ -1,0 +1,20 @@
+@import url("https://fonts.cdnfonts.com/css/pattaya");
+
+.title {
+  font-family: "Pattaya", sans-serif;
+}
+
+.search::placeholder {
+  color: #566470;
+  font-size: 16px;
+}
+@media (min-width: 640px) {
+  .search {
+    background-image: url("/search.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+  }
+  .search::placeholder {
+    font-size: 18px;
+  }
+}
